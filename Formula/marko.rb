@@ -5,16 +5,16 @@ class Marko < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/sstrelsov/marko/releases/download/v0.1.3/marko-aarch64-apple-darwin.tar.gz"
-      sha256 "13e2236629047eed85acf2f7b828f4d09b5006d9de663781dcdcdf453b476655"
+      sha256 "9515d454ef28535d23cebe7ac43c6fdd18c1e242ac0beba541b16769e08f1e38"
     end
     if Hardware::CPU.intel?
       url "https://github.com/sstrelsov/marko/releases/download/v0.1.3/marko-x86_64-apple-darwin.tar.gz"
-      sha256 "c72801f2629b58a3637b3913808bc437b286e57f471b61a100b7721bd5b758e9"
+      sha256 "ecb442f11045573c6f532dc96ecf8442463133b7cc569b10a77761b80bdba12c"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
       url "https://github.com/sstrelsov/marko/releases/download/v0.1.3/marko-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "726ed757b310f99a9f71571b35175321a949871125e3364d42a79215fb4233bf"
+      sha256 "5a528dc1d205f08e93f0f6cc1a0310137f73bdb17203b2b2245d8575b86d91ee"
   end
   license "MIT"
 
