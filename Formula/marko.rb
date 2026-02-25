@@ -1,20 +1,20 @@
 class Marko < Formula
   desc "A terminal markdown editor"
   homepage "https://github.com/sstrelsov/marko"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sstrelsov/marko/releases/download/v0.1.3/marko-aarch64-apple-darwin.tar.gz"
-      sha256 "9515d454ef28535d23cebe7ac43c6fdd18c1e242ac0beba541b16769e08f1e38"
+      url "https://github.com/sstrelsov/marko/releases/download/v0.1.4/marko-aarch64-apple-darwin.tar.gz"
+      sha256 "6121998ed840bb0b043f3b0644749f753cd2914a5eb03e67a1b364ff5652de8d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sstrelsov/marko/releases/download/v0.1.3/marko-x86_64-apple-darwin.tar.gz"
-      sha256 "ecb442f11045573c6f532dc96ecf8442463133b7cc569b10a77761b80bdba12c"
+      url "https://github.com/sstrelsov/marko/releases/download/v0.1.4/marko-x86_64-apple-darwin.tar.gz"
+      sha256 "baee8351bcf88f07e58aa959c65ccc259a23d3617927ec3f668a498cb27f9675"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-      url "https://github.com/sstrelsov/marko/releases/download/v0.1.3/marko-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5a528dc1d205f08e93f0f6cc1a0310137f73bdb17203b2b2245d8575b86d91ee"
+      url "https://github.com/sstrelsov/marko/releases/download/v0.1.4/marko-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "aa7586679d99f6da54df29fa06406e0b6e7b22f9227be3fd77d690c8ae4214ce"
   end
   license "MIT"
 
